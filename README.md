@@ -4,7 +4,7 @@
 
 # Run
 
-````node server.js```
+````node server.js````
 
 # Chama um Curl
 ```` curl http://localhost:3000/clima ```` 
