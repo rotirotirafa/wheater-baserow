@@ -28,7 +28,6 @@ app.use(express.json());
 app.get('/clima', async (req, res) => {
     console.log(`Recebida requisição para buscar clima de ${CITY}`);
 
-    // 1. Buscar Dados do OpenWeatherMap
     const openWeatherUrl = `https://api.openweathermap.org/data/2.5/weather?q=${CITY}&appid=${OPENWEATHER_KEY}&units=metric&lang=pt_br`;
     let weatherData;
 
